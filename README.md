@@ -14,11 +14,12 @@
  **This one is an example of one**
  
  ```Css
- <div class='wrapper'>
+/* <div class='wrapper'>
 <div class='left-circle'></div>
 <div class='right-circle'>
 <div class='inner-circle'></div>
 </div>
+*/
 
 /* remove comments to see the shape */
 
