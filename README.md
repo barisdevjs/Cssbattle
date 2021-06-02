@@ -8,4 +8,4 @@
   -  Just copy paste them in the [Cssbattle website](https://cssbattle.dev) 
   to see the result.
   
-  Many of the solution are 100% matches
+  Many of the solutions are 100% matches
