@@ -1,0 +1,63 @@
+<div class = container>
+<div class=center>
+<div class=blue>
+  <div class=yellow></div>
+</div>
+</div>
+ <div class=left></div>
+ <div class=right></div>
+</div>
+<style>
+  body {
+    margin:0;
+    background:#6592CF;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .container {
+     display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .center {
+    width: 250px;
+    height: 250px;
+    background: #6592CF;
+    border-radius:50%;
+     display:flex;
+    align-items:center;
+    justify-content:center;
+    z-index:3
+  }
+  .blue {
+    width: 150px;
+    height: 150px;
+    background: #243D83;
+    border-radius:50%;
+     display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .yellow {
+    width: 50px;
+    height: 50px;
+    background: #EEB850;
+    border-radius:50%;
+  }
+  .left {
+    width: 50px;
+    height: 150px;
+    background: #243D83;
+    position:absolute;
+    left:50px;
+  }
+  .right {
+    width: 50px;
+    height: 150px;
+    background: #243D83;
+    position:absolute;
+    right:50px;
+  }
+  
+</style>
