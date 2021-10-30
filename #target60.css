@@ -1,0 +1,51 @@
+<div class='a'></div>
+<div class='b'></div>
+
+<style>
+  body {
+    background:#191919;
+    margin:0;
+    padding:0;
+  }
+  .a {
+    width: 0px;
+    height: 0px;
+    background: #191919;
+    border-right:50px solid transparent;
+    border-left:50px solid transparent;
+    border-top:50px solid #4F77FF;
+    top:75px;
+    right:-100px;
+    position:relative;
+    -webkit-box-reflect: right;
+  }
+   .b {
+      position: relative;
+      text-align: center;
+      height: 50px;
+      width: 100px;
+     top:100px;
+     left:100px;
+       -webkit-box-reflect: right;
+    }
+   .b:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 51%;
+      background: #4F77FF;
+      transform: skew(0deg, 45deg);
+    }
+    .b:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 50%;
+      background: #4F77FF;
+      transform: skew(0deg, -45deg);
+    }
+</style>
