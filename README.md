@@ -7,6 +7,10 @@
   - make sure you remove the comments in files.
   -  Just copy paste them in the [Cssbattle website](https://cssbattle.dev) 
   to see the result.
+
+  ## Below you will see the page of a completed battle.
+
+![alt text](https://github.com/barisdevjs/Cssbattle/blob/master/screenshot.jpg)
   
   Many of the solutions are 100% matches
 
@@ -57,3 +61,5 @@
   }
 </style>
  ```
+
+
