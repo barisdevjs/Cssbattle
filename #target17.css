@@ -1,0 +1,56 @@
+<div class ='circle-left'></div>
+<div class ='circle-right'></div>
+<div class ='center'></div>
+<div class ='circle-top'></div>
+<div class ='circle-bottom'></div>
+<style>
+  body {
+    background:#09042A;
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+.circle-left {
+    width: 60px;
+    height: 60px;
+  border:10px solid #E78481;
+  border-radius:50%;
+  left:100px;
+  position:absolute;
+  }
+  .circle-right {
+    width: 60px;
+    height: 60px;
+   border:10px solid #E78481;
+  border-radius:50%;
+    
+  right:100px;
+  position:absolute;
+  }
+    .center {
+    width: 40px;
+    height: 30px;
+   border:10px solid #E78481;
+  position:absolute;
+   background:#E78481;
+  }
+      .circle-top {
+    width: 60px;
+    height: 60px;
+   border:10px solid #09042A;
+  position:absolute;
+   background:#F5BB9C;
+        border-radius:50%;
+        top:57px;
+  }
+        .circle-bottom {
+    width: 60px;
+    height: 60px;
+   border:10px solid #09042A;
+  position:absolute;
+   background:#F5BB9C;
+        border-radius:50%;
+        bottom:57px;
+  }
+</style>
