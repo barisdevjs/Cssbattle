@@ -1,0 +1,38 @@
+<div ></div>
+<style>
+  body {
+    margin:0;
+    background:#0B2429;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background: #F3AC3C;
+    transform:rotate(45deg);
+    top:35px;
+    position:relative;
+  }
+  div::after {
+    content:'';
+    width: 100px;
+    height: 50px;
+    background: #1A4341;
+    position:absolute;
+    top:-50px;
+    left:-25px;
+    transform:skew(45deg,0deg);
+  }
+    div::before {
+    content:'';
+    width: 50px;
+    height: 100px;
+    background: #998235;
+    position:absolute;
+    bottom:25px;
+    left:-50px;
+    transform:skew(0deg, 45deg);
+  }
+ </style>
