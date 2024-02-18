@@ -1,0 +1,117 @@
+<div class="a">
+  <div class="b">
+    <div class="bb"></div>
+  </div>
+    <div class="c">
+    <div class="cc"></div>
+  </div>
+  <div class="d"></div>
+</div>
+<style>
+  body {
+    background: #ED6A9D;
+    margin:0;
+    padding:0;
+    display: grid;
+    place-items: center;
+  }
+  .a {
+    width: 180px;
+    height: 150px;
+    background: #050044;
+    border-radius:100%;
+    margin-top:30px;
+    position:relative;
+  }
+.a:after {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    content: "";
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 60px solid #050044;
+    transform: rotate(-30deg); 
+    transform-origin: center top; 
+    top:-26px;
+    left:-20px;
+}
+
+  .a:before {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    content: "";
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 60px solid #050044;
+    transform: rotate(30deg); 
+    transform-origin: center top; 
+    top:-26px;
+    right:-20px;
+}
+
+  .b {
+    background:#FFC100;
+    width:40px;
+    height:40px;
+    z-index:2;
+    position: absolute;
+    border-radius: 0 50%;
+    transform: rotate(-45deg);
+    transform-origin: 100% 0;
+    top:32px;
+    left:15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+
+  .bb {
+    width:10px;
+    height:30px;
+    border-radius:100%;
+    position: absolute;
+    background:#050044;
+    transform: rotate(45deg);
+  }
+
+    .c {
+    background:#FFC100;
+    width:40px;
+    height:40px;
+    z-index:2;
+    position: absolute;
+    border-radius: 0 50%;
+    transform: rotate(-45deg);
+    transform-origin: 100% 0;
+    top:32px;
+    right:55px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+
+  .cc {
+    width:10px;
+    height:30px;
+    border-radius:100%;
+    position: absolute;
+    background:#050044;
+    transform: rotate(45deg);
+  }
+
+  .d {
+  width: 0; 
+  height: 0; 
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #ED6A9D;
+    position:absolute;
+    top:63%;
+    left:41.5%;
+    z-index:2;
+  }
+
+</style>
+
